@@ -16,8 +16,9 @@ public void  Verify(){
 	p.login();
 	p.setEmail("hello@gmail.com");
 	p.setPass("good1");
+	Thread.sleep(2000);
 	p. button();
-	
+	driver.close();
 }
 
 }
